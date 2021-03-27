@@ -18,6 +18,10 @@
     color: #C4C4C4;
 }
 
+#playMazeSVG {
+    transform: rotate(180deg);
+}
+
 #githubLogo {
     padding: 10px;
 }
