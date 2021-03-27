@@ -1,4 +1,4 @@
-.hoverElement {
+.hoverElementDiv {
     margin: 4;
     width: 400;
     height: 100px;
@@ -7,13 +7,24 @@
     transition: all 0.5s ease;
 }
 
-.hoverElement:hover {
-    transform: translateX(3%);
+.hoverElementDiv:hover {
+    transform: translateX(4%);
 }
 
 .divText {
     transform: translate(160px, -100px);
-    font: arial;
     font-size: 200%;
     color: #C4C4C4;
+}
+
+#githubLogo {
+    padding: 10px;
+}
+
+#gitHubDiv {
+    background-color: rgb(33, 80, 209);
+}
+
+#githubDiv:hover {
+    transform: translateX(4%);
 }
