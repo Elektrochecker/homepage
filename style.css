@@ -8,7 +8,7 @@
 }
 
 .hoverElementDiv:hover {
-    transform: translateX(4%);
+    transform: translateX(20px);
 }
 
 .divText {
